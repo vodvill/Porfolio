@@ -60,6 +60,12 @@ a {
   padding: 20px;
 }
 
+	
+.logo {
+	width:auto;
+	height: auto;
+}
+
 .page-header__item {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 200px;
@@ -346,14 +352,7 @@ grid-gap: 20px;
     grid-column: auto/auto;
     grid-row: auto/auto;
   }
-  .grid__item:nth-last-child(2) {
-    -ms-grid-column: 1;
-    grid-column: 1/1;
-    grid-row: auto/auto;
-  }
+
 }
 
-  .grid__item:last-child {
-    grid-column: auto / auto;
-    grid-row: auto / auto;
-}
+
